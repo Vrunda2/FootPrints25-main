@@ -1,0 +1,71 @@
+/* ************** Styling in Utility ***************** */
+/* @import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap'); */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_segment {
+    font-family: var(--heading-family) !important;
+    font-size: 2.25rem;
+    letter-spacing: 3px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--icon-color);
+    text-align: center;
+    font-weight: 400;
+    margin: 1rem 1rem;
+    /* color: var(--white); */
+}
+
+#heading_sponsors_page{
+    margin-bottom: 2rem;
+}
+
+/* ************** Styling in particular heading ***************** */
+
+#headingsOfAll :not(.footer_header){
+    color: var(--white);
+}
+
+@media screen and  (max-width:285px) {
+
+    #heading_glimpse , #heading_flashback{
+
+        font-size: 1.2rem !important;
+
+    }
+    
+}
+
+@media screen and (min-width:286px)  and  (max-width:323px) {
+
+    #heading_glimpse , #heading_flashback{
+
+        font-size: 1.3rem !important;
+
+    }
+    
+}
+
+@media screen and (min-width:324px) and (max-width:375px) {
+
+    #heading_glimpse , #heading_flashback{
+
+        font-size: 1.55rem !important;
+
+    }
+    
+}
+
+@media screen and (min-width:376px) and (max-width:415px) {
+
+    #heading_glimpse , #heading_flashback{
+
+        font-size: 1.7rem !important;
+
+    }
+    
+}

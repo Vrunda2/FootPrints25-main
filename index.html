@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords"
+    content="msufp, gujarat, FootPrints23, footprints23, FootPrints'23, footprints'23, largest, event, techfest, thinkBEYOND, think, beyond, msu, footprints, technical, fp, vadodara, baroda, engineering, virtual, online, webinar">
+  <meta name="description" content="A National Level Technical Event">
+  <meta name="author" content="FootPrints23">
+
+
+  <title>FootPrints'23 | Technical Fiesta </title>
+
+  <link rel="shortcut icon"
+    href="https://res.cloudinary.com/dwdln9iy2/image/upload/v1674703728/Logo/Logo-for-website_kqjzy6.png"
+    type="image/x-icon">
+
+  <!-- aos  (it affects sponsor slider,so not use until solution found) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Bootstrap Link (CSS)-->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Library for Testimonials -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  <!-- Libraries For Sponsor Slicker -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+  <!-- Library Of AOS file -->
+  <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+
+  <script src="https://kit.fontawesome.com/ee0e179fc9.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div id="root"></div>
+
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+</body>
+<script id="v-shader" type="x-shader/x-vertex">
+    varying vec2 vUv;
+    uniform float uTime;
+
+    float PI = 3.1415926535897932384626433832795;
+
+    void main(){
+        vUv = uv;
+        vec3 pos = position;
+
+        // Lateral direction
+        float amp = 0.0001; // Amplitude (role) The larger the amplitude, the larger the wave.
+        float freq = 0.0001* uTime; // Vibration frequency (role of) If it is increased, the waves become finer.
+
+        // Longitudinal direction
+        float tension = -0.001 * uTime; //top and bottom tension
+
+        pos.x = pos.x + sin(pos.y * PI  * freq) * amp;
+        pos.y = pos.y + (cos(pos.x * PI) * tension);
+
+        gl_Position = projectionMatrix * modelViewMatrix * vec4(pos, 1.0);
+    }
+  </script>
+<script id="f-shader" type="x-shader/x-fragment">
+    varying vec2 vUv;
+    uniform sampler2D uTexture;
+    uniform float uImageAspect;
+    uniform float uPlaneAspect;
+    uniform float uTime;
+
+    void main(){
+      vec2 ratio = vec2(
+        min(uPlaneAspect / uImageAspect, 1.0),
+        min((1.0 / uPlaneAspect) / (1.0 / uImageAspect), 1.0)
+      );
+
+      // Center the texture using the calculated result
+      vec2 fixedUv = vec2(
+        (vUv.x - 0.5) * ratio.x + 0.5,
+        (vUv.y - 0.5) * ratio.y + 0.5
+      );
+
+      vec2 offset = vec2(0.0, uTime * 0.0005);
+      float r = texture2D(uTexture, fixedUv + offset).r;
+      float g = texture2D(uTexture, fixedUv + offset * 0.5).g;
+      float b = texture2D(uTexture, fixedUv).b;
+      vec3 texture = vec3(r, g, b);
+
+      gl_FragColor = vec4(texture, 1.0);
+    }
+  </script>
+<!-- DON'T USE -->
+<script>
+  AOS.init();
+  window.addEventListener('load', AOS.refresh)
+</script>
+
+
+</html>

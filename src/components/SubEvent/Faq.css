@@ -1,0 +1,33 @@
+.acc-answer ul {
+    list-style: none !important;
+    /* Remove default bullets */
+}
+
+.acc-answer ul li::before {
+    content: "\2022" !important;
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color:var(--footer-icon-color)  !important;
+    /* Change the color */
+    font-weight: bold !important;
+    /* If you want it to be bold */
+    display: inline-block !important;
+    /* Needed to add space between the bullet and the text */
+    width: 1em !important;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em !important;
+    /* Also needed for space (tweak if needed) */
+}
+
+.acc-answer ul li{
+    text-transform: none;
+}
+
+/* Abdeali changes */
+
+.YellowToWhite{
+ color: var(--footer-icon-color) !important;
+}
+
+.YellowToWhite:hover{
+ color: var(--white) !important;
+}

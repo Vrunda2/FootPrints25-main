@@ -1,0 +1,283 @@
+.FSR_header_img img {
+    width: 100%;
+}
+#fsr-header{
+    padding: 0;
+}
+#reveling-heading {
+  border-bottom: none;
+  font-family: var(--heading-family) !important;
+  font-size: 2.25rem;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 400;
+  margin: 1rem 1rem;
+  color: var(--icon-color);
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.fsr_heading {
+  text-align: center;
+  margin: 0.5rem 1rem;
+  margin-left: 0;
+}
+.fsr_lec p {
+  text-align: justify;
+  color: var(--white);
+  text-transform: none;
+}
+
+.fsr_lec {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 2rem 2rem;
+  margin: auto;
+}
+
+.fsr_img {
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 50px; */
+}
+
+.fsr_img img {
+  width: 75%;
+  background: #a8a8a80a;
+  padding: 14px;
+}
+
+.fsr_img_style {
+  justify-content: flex-end;
+}
+
+.fsr_img1 {
+  padding-left: 85px;
+}
+
+.fsr_heading {
+  display: flex;
+  /* margin-left: 0; */
+}
+
+.fsr_name {
+  border-bottom: 2px solid var(--icon-color);
+  padding-bottom: 6px;
+  color: var(--white);
+  text-align: left;
+}
+
+.about_fsr_para2 {
+  display: none;
+}
+
+.about_fsr_para1 {
+  margin-left: 15%;
+}
+.fsr_img_style {
+  position: relative;
+  right: 15%;
+}
+.para1 {
+  margin-right: 15%;
+}
+@media screen and (min-width: 999px) {
+  .about_fsr {
+    text-align: justify;
+  }
+
+  .fsr_name {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .fsr_heading {
+    justify-content: center;
+  }
+
+  .fsr_name {
+    text-align: center;
+    letter-spacing: 1px;
+  }
+
+  .about_fsr {
+    text-align: center;
+  }
+
+  .fsr_lec {
+    display: block;
+    width: 75%;
+    padding: 0.5rem 0.5rem;
+  }
+
+  .about_fsr_para1 {
+    display: none;
+  }
+
+  .about_fsr_para2 {
+    display: block;
+  }
+
+  .fsr_img {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+
+  .fsr_img img {
+    width: 100%;
+  }
+
+  .header_img img {
+    padding-bottom: 20px;
+  }
+
+  .kaleido_header {
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+  .about_fsr {
+    margin-left: 0;
+  }
+  .fsr_img_style {
+    position: relative;
+    right: 0%;
+  }
+  .para1 {
+    margin-right: 0%;
+  }
+  .fsr_img_style {
+    position: relative;
+    right: 0%;
+  }
+  .fsr_lec p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 996px) and (min-width: 768px) {
+  .fsr_img {
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .fsr_lec {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .about_fsr_para1 {
+    display: none;
+  }
+
+  .about_fsr_para2 {
+    display: block;
+  }
+
+  .fsr_heading {
+    justify-content: center;
+  }
+  .fsr_heading h3 {
+    text-align: center;
+  }
+
+  .fsr_lec {
+    padding: 1rem;
+  }
+
+  .fsr_name {
+    font-size: 1.9rem;
+  }
+  .about_fsr {
+    margin-left: 10%;
+    width: 90%;
+  }
+  .fsr_img_style {
+    position: relative;
+    right: 0%;
+  }
+  .fsr_lec p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 999px) {
+  /* .fsr_name{font-size: 1.4rem;} */
+  .fsr_lec {
+    padding: 3rem 0rem;
+  }
+  .fsr_img img {
+    width: 75%;
+    background: #a8a8a80a;
+    padding: 14px;
+  }
+  .fsr_img_style {
+    position: relative;
+    right: 0%;
+  }
+  .para1 {
+    margin-right: 0%;
+  }
+  .fsr_lec p {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 518px) and (min-width: 410px) {
+  .fsr_name {
+    font-size: 1.4rem;
+    letter-spacing: 0px;
+  }
+  .about_fsr {
+    margin-left: 0;
+  }
+  .fsr_img_style {
+    position: relative;
+    right: 0%;
+  }
+  /* .fsr_img {
+        justify-content: center;
+        margin-bottom: 2rem;
+    } */
+}
+
+@media screen and (max-width: 480px) and (min-width: 447px) {
+  .prev_fsr_name {
+    letter-spacing: 2px;
+  }
+}
+
+@media screen and (max-width: 409px) and (min-width: 374px) {
+  .fsr_heading {
+    margin: 1rem;
+  }
+  .fsr_img img {
+    width: 110%;
+  }
+}
+
+@media screen and (max-width: 338px) {
+  .fsr_name {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  .fsr_img img {
+    width: 110%;
+  }
+}
+
+/* added by Abdeali */
+
+/* #Kaleido .fa{
+    color: var(--white) !important;
+} */
+
+.fsr_lec p {
+  text-align: justify;
+  color: var(--white);
+  text-transform: none;
+}
+.text-without-icon {
+  margin-top: 20px;
+  font-size: 1.05rem;
+}

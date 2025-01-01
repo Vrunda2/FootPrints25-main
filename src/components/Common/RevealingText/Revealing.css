@@ -1,0 +1,146 @@
+/* REVEALING SOON text */
+
+.text {
+    font-size: 3rem;
+    color: rgba(0, 0, 0, 0);
+    font-weight: 400 !important;
+}
+
+.Revealing-text p {
+    background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, var(--yellow), transparent, transparent);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 5rem;
+    letter-spacing: 2px;
+    animation: reveal 3000ms ease-in-out forwards 700ms, glow 2500ms steps(5) infinite 2500ms;
+}
+
+@keyframes reveal {
+    80% {
+        letter-spacing: 8px;
+    }
+
+    100% {
+        background-size: 300% 300%;
+    }
+}
+
+@keyframes glow {
+    40% {
+        text-shadow: 0 0 8px yellow;
+    }
+}
+
+@keyframes backcolor {
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@media(max-width: 450px) {
+
+    .text {
+        font-size: 1.2rem;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+
+
+    .Revealing-text p {
+        background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, var(--yellow), transparent, transparent);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 1.5rem;
+        animation: reveal 2500ms ease-in-out forwards 150ms, glow 2200ms steps(5) infinite 2000ms;
+    }
+
+    @keyframes reveal {
+        80% {
+            letter-spacing: 3.8px;
+        }
+
+        100% {
+            background-size: 300% 300%;
+        }
+    }
+
+    @keyframes glow {
+        40% {
+            text-shadow: 0 0 8px yellow;
+        }
+    }
+}
+
+@media screen and (min-width:450px) and (max-width: 650px) {
+
+    .text {
+        font-size: 1.25rem;
+        color: var(--yellow);
+        font-weight: 200;
+        letter-spacing: 0px;
+    }
+
+
+    .Revealing-text p {
+
+        background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, var(--yellow), transparent, transparent);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: 1.8rem;
+        animation: reveal 2500ms ease-in-out forwards 150ms, glow 2200ms steps(5) infinite 2000ms;
+    }
+
+    @keyframes reveal {
+        80% {
+            letter-spacing: 5px;
+        }
+
+        100% {
+            background-size: 300% 300%;
+        }
+    }
+
+    @keyframes glow {
+        40% {
+            text-shadow: 0 0 8px yellow;
+        }
+    }
+}
+
+/* Defined by kareena used by abdeali */
+.Revealing-text p {
+    font-size: 6rem;
+    color: var(--yellow);
+    font-family: var(--heading-family);
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 840px) {
+    .Revealing-text p {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .Revealing-text p {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .Revealing-text p {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .Revealing-text p {
+        font-size: 1.8rem;
+    }
+}

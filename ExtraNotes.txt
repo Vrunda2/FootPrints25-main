@@ -1,0 +1,49 @@
+-> In achievements can add to the last element :    
+     width: 50%;
+    margin: 2rem auto;
+
+-> Sponsor slider : try to do in react component
+
+-> swiper class  : try to use module
+
+-> Add on line in top of navbar
+-> Add infinite scroll to images
+-> Add Media Parts.
+-> can change title when it is a loading somthing
+
+-> in 1024px In achivements read more is an apporopriate.
+
+-> in 1024px navbar problem.
+
+-> yt and Insta do lazy loading.
+
+-> in GL can add icon on Name and Profeesion.
+
+-> make Sponsor-slide and Footer Common
+
+-> remove tb in small device in Contact Page.
+
+-> change tb color to Gold.
+
+-> 22 history content!
+
+-> in Gallery want to add infinte scoll?
+
+-> in readMore add => ?
+
+
+-> NavBar :
+0) Add Home also
+1) Main Items shoulnd not have Links. 
+
+-> HistoryPage
+
+color : #6a6a26
+
+
+-> Bugs
+
+1) If we are on some page down and move to new Page it automatically scroll down. not stay on top.
+2) footer Paddding
+3) 1024 px NevBar
+4) in Navbar not close automatically(menu items).

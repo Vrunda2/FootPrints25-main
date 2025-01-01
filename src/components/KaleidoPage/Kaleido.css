@@ -1,0 +1,271 @@
+.GL_header_img img {
+    width: 100%;
+}
+#kaleido-header{
+    padding: 0;
+}
+#reveling-heading{
+    border-bottom: none;
+    font-family: var(--heading-family) !important;
+    font-size: 2.25rem;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 400;
+    margin: 1rem 1rem;
+    color: var(--icon-color);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.kaleido_heading {
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.guest_lec {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3rem 2rem;
+}
+/* 
+.clock-icon::before {
+    font: var(--fa-font-regular);
+    content: "\f017";
+    padding-right: 9px;
+}
+
+.location-icon::before {
+    font: var(--fa-font-solid);
+    content: "\f3c5";
+    padding-right: 9px;
+} */
+
+.guest_img {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 50px; */
+}
+
+.guest_img img {
+    width: 70%;
+    background: #A8A8A80A;
+    padding: 14px;
+}
+
+.guest_img_style {
+    justify-content: flex-end;
+}
+
+.guest_img1 {
+    padding-left: 85px;
+}
+
+.guest_heading {
+    display: flex;
+}
+
+.guest_name {
+    border-bottom: 2px solid var(--icon-color);
+    padding-bottom: 6px;
+    color: var(--white);
+    text-align: left;
+}
+
+.about_guest_para2 {
+    display: none;
+}
+
+.about_guest_para1{
+    margin-left: 15%;
+}
+.guest_img_style{
+    position: relative;
+    right: 15%;
+}
+.para1 {
+    margin-right: 15%;
+}
+@media screen and (min-width: 999px) {
+    .about_guest {
+        text-align: justify;
+    }
+
+    .guest_name {
+        font-size: 1.6rem;
+    }
+    
+}
+
+@media screen and (max-width: 767px) {
+    .guest_heading {
+        justify-content: center;
+    }
+
+    .guest_name {
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .about_guest {
+        text-align: center;
+    }
+
+    .guest_lec {
+        display: block;
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .about_guest_para1 {
+        display: none;
+    }
+
+    .about_guest_para2 {
+        display: block;
+    }
+
+    .guest_img {
+        margin-bottom: 1rem;
+    }
+
+    .guest_img img {
+        width: 100%;
+    }
+
+    .header_img img {
+        padding-bottom: 20px;
+    }
+
+    .kaleido_header {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .about_guest{
+    margin-left: 0;
+}
+.guest_img_style{
+    position: relative;
+    right: 0%;
+}
+.para1 {
+    margin-right: 0%;
+}
+}
+
+@media screen and (max-width: 996px) and (min-width:768px) {
+    .guest_img {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .guest_lec {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_guest_para1 {
+        display: none;
+    }
+
+    .about_guest_para2 {
+        display: block;
+    }
+
+    .guest_heading {
+        justify-content: center;
+    }
+    .guest_heading h3{
+        text-align: center;
+    }
+
+    .guest_lec {
+        padding: 2rem;
+    }
+
+    .guest_name {
+        font-size: 1.9rem;
+    }
+    .about_guest{
+    margin-left: 10%;
+    width: 90%;
+}
+.guest_img_style{
+    position: relative;
+    right: 0%;
+}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 999px) {
+
+    /* .guest_name{font-size: 1.4rem;} */
+    .guest_lec {
+        padding: 3rem 0rem;
+    }
+.guest_img img {
+    width: 90%;
+    background: #A8A8A80A;
+    padding: 14px;
+
+}
+.about_guest{
+    margin-left: 5%;
+}
+.guest_img_style{
+    position: relative;
+    right: 0%;
+}
+.para1 {
+    margin-right: 0%;
+}
+
+}
+
+@media screen and (max-width: 518px) and (min-width: 410px) {
+    .guest_name {
+        font-size: 1.4rem;
+        letter-spacing: 0px;
+    }
+        .about_guest{
+    margin-left: 0;
+}
+.guest_img_style{
+    position: relative;
+    right: 0%;
+}
+
+}
+
+@media screen and (max-width: 480px) and (min-width: 447px) {
+    .prev_guest_name {
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 409px) and (min-width: 380px) {
+    .guest_heading {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 338px) {
+    .guest_name {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+}
+
+.guest_lec p {
+    text-align: justify;
+    color: var(--white);
+    text-transform: none;
+}
+
+/* added by Abdeali */
+
+#Kaleido .fa{
+    color: var(--white) !important;
+}
+.text-without-icon{
+    margin-top: 20px;
+    font-size: 1.05rem;
+}

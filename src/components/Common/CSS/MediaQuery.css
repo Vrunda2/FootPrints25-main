@@ -1,0 +1,1075 @@
+/* ----------------------- Media Queries -------------------------  */
+
+@media screen and  (max-width:320px) {
+    
+    #home {
+        height: 55vh;
+    }
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+    .Parent_Footer {
+        font-size: 8px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 8px;
+    }
+
+    #newsletter_info {
+        font-size: 1.25em;
+    }
+
+    #email-textbox {
+        font-size: 1.1em;
+    }
+
+    #head_NL{
+        font-size: 1.18rem !important;
+    }
+
+    .footer_btn {
+        width: 7em;
+        height: 2.3em;
+        font-size: 1.4em;
+    }
+
+    .social {
+        font-size: 2.2em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.5em;
+    }
+
+    #footer_div_newsLetter {
+        padding: 1.56em;
+    }
+
+    .heading_segment {
+        font-size: 2em;
+    }
+
+    #sponsors .slick-current img {
+        transform: scale(0.8);
+    }
+
+    #newsletter_info {
+        font-size: 1.7em;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 12px;
+    }
+
+    #email-textbox {
+        font-size: 1.5em;
+    }
+
+    .heading_segment {
+        font-size: 1.3rem;
+    }
+
+    #head_NL{
+        font-size: 1.3rem !important;
+    }
+
+
+    #head_flashBack {
+        font-size: 1.2rem;
+    }
+
+    #id_head_aboutFp {
+        font-size: 1.2rem;
+    }
+
+    #segments .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.3rem;
+    }
+
+    #heading_sponsors_page {
+        /* font-size: 1rem; */
+        margin-bottom: 0px;
+    }
+    
+    #head_NL{
+        font-size: 1.11rem !important;
+    }
+
+}
+
+@media screen and (min-width:321px) and (max-width:334px) {
+
+    #home {
+        height: 55vh;
+    }
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+    .Parent_Footer {
+        font-size: 8px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 8px;
+    }
+
+    #newsletter_info {
+        font-size: 1.25em;
+    }
+
+    #email-textbox {
+        font-size: 1.1em;
+    }
+
+    #head_NL{
+        font-size: 1.18rem !important;
+    }
+
+    .footer_btn {
+        width: 7em;
+        height: 2.3em;
+        font-size: 1.4em;
+    }
+
+    .social {
+        font-size: 2.2em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.5em;
+    }
+
+    #footer_div_newsLetter {
+        padding: 1.56em;
+    }
+
+    .heading_segment {
+        font-size: 2em;
+    }
+
+    #sponsors .slick-current img {
+        transform: scale(0.8);
+    }
+
+    #newsletter_info {
+        font-size: 1.7em;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 12px;
+    }
+
+    #email-textbox {
+        font-size: 1.5em;
+    }
+
+    .heading_segment {
+        font-size: 1.3rem;
+    }
+
+    #head_NL{
+        font-size: 1.3rem !important;
+    }
+
+
+    #head_flashBack {
+        font-size: 1.2rem;
+    }
+
+    #id_head_aboutFp {
+        font-size: 1.2rem;
+    }
+
+    #segments .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.3rem;
+    }
+
+    #heading_sponsors_page {
+        /* font-size: 1rem; */
+        margin-bottom: 0px;
+    }
+}
+
+
+@media screen and (min-width:334px) and (max-width:356px) {
+
+    #home {
+        height: 55vh;
+    }
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+    /* change in About */
+
+    #about_footprints_page img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    .Parent_Footer {
+        font-size: 11px;
+
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 13px;
+    }
+
+    #email-textbox {
+        font-size: 1.1em;
+    }
+
+    .footer_btn {
+        width: 6.06em;
+        height: 2.3em;
+        font-size: 1.1em;
+    }
+
+    .footer_header {
+        font-size: 2em !important;
+    }
+
+    #newsletter_info {
+        margin: 1.19em 0em;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+
+
+    #footer_div_newsLetter {
+        padding: 1.56em;
+    }
+
+    #sponsors .slick-current img {
+        transform: scale(0.9);
+    }
+
+    #heading_sponsors_page {
+        /* font-size: 1.1rem; */
+        margin-bottom: 0px;
+    }
+
+    .heading_segment {
+        font-size: 1.5rem;
+    }
+
+    #head_flashBack {
+        font-size: 1.1rem;
+    }
+
+    #id_head_aboutFp {
+        font-size: 1.3rem;
+    }
+
+    #segments .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.3rem;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.3rem;
+        text-align: justify;
+        letter-spacing: auto;
+    }
+}
+
+@media screen and (min-width:356px) and (max-width:416px) {
+
+    /* Home page MQ */
+
+    #home {
+        height: 55vh;
+    }
+
+    .header-img {
+        width: 95%;
+        margin-top: 15rem;
+        margin-bottom: 7rem;
+    }
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+    .Parent_Footer {
+        font-size: 11px;
+
+    }
+
+    #about_footprints_page p {
+        line-height: 1.2rem;
+        text-align: justify;
+        letter-spacing: auto;
+    }
+
+    /* change in About */
+
+    #about_footprints_page img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 12px;
+    }
+
+    #newsletter_info {
+        margin: 1.19em 0em;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    #email-textbox {
+        font-size: 1.2em;
+    }
+
+    #btn_join {
+        font-size: 1.2em;
+        width: 7em;
+        height: 2.5em;
+    }
+
+    .footer_header {
+        font-size: 2.1em !important;
+    }
+
+    #head_NL{
+        font-size: 1.36rem !important;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+
+    #footer_div_newsLetter {
+        padding: 1.56em;
+    }
+
+    #sponsors .slick-current img {
+        transform: scale(0.9);
+    }
+
+    #heading_sponsors_page {
+        /* font-size: 1.1rem; */
+        margin-bottom: 0px;
+    }
+
+    #head_flashBack {
+        font-size: 1.25rem;
+    }
+
+    #id_head_aboutFp {
+        font-size: 1.5rem;
+    }
+
+    #segments .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.3rem;
+    }
+}
+
+@media screen and (min-width:416px) and (max-width:479px) {
+
+    /* Home page MQ */
+
+    #home {
+        height: 55vh;
+    }
+
+    .header-img {
+        width: 95%;
+        margin-top: 15rem;
+        margin-bottom: 6.5rem;
+    }
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+
+    #about_footprints_page p {
+        line-height: 1.2rem;
+        text-align: justify;
+        letter-spacing: 0px;
+    }
+
+    /* change in About */
+
+    #about_footprints_page img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    #sponsors .slick-current img {
+        transform: scale(0.9);
+    }
+
+    #heading_sponsors_page {
+        font-size: 1.4rem;
+        margin-bottom: 0px;
+    }
+
+    #id_head_aboutFp {
+        font-size: 1.7rem;
+    }
+
+    #segments .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.3rem;
+    }
+}
+
+@media screen and (min-width:416px) and (max-width:575px) {
+
+
+    /* Home page MQ */
+
+    #home {
+        height: 55vh;
+    }
+
+    .header-img {
+        width: 95%;
+        margin-top: 15rem;
+        margin-bottom: 6rem;
+    }
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.2rem;
+        text-align: justify;
+        letter-spacing: 0px;
+        /* font-size: 1.2rem;     */
+    }
+
+    /* change in About */
+
+    #about_footprints_page img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    .Parent_Footer {
+        font-size: 12px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 13px;
+    }
+
+    #email-textbox {
+        font-size: 1.5em;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+
+    #btn_join {
+        height: 2.5em;
+    }
+
+    #footer_div_newsLetter {
+        padding: 1.56em;
+    }
+
+    .footer_btn {
+        height: 2.6em;
+    }
+
+    #head_NL{
+
+        font-size: 1.6rem !important;
+    }
+
+    .heading_segment {
+        font-size: 1.7rem;
+    }
+
+    #head_flashBack {
+        font-size: 1.5rem;
+    }
+
+    #id_head_aboutFp {
+        font-size: 2rem;
+    }
+
+    @media screen and (min-width:416px) and (max-width:575px) {
+
+        #id_head_aboutFp {
+            font-size: 1.8rem;
+        }
+
+    }
+
+    @media screen and (min-width:469px) and (max-width:479px) {
+        #sponsors .slick-current img {
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+@media screen and (min-width:575px) and (max-width:667px) {
+
+    /* Home page MQ */
+
+    #home {
+        height: 55vh;
+    }
+
+    .header-img {
+        width: 95%;
+        margin-top: 15rem;
+        margin-bottom: 5rem;
+    }
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.3rem;
+        text-align: justify;
+        letter-spacing: 0px;
+        /* font-size: 1.2rem;     */
+    }
+
+    /* change in About */
+
+    #about_footprints_page img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    .Parent_Footer {
+        font-size: 9px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 13px;
+    }
+
+    #newsletter_info {
+        font-size: 1.24em;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.4em;
+    }
+
+    .heading_segment {
+        font-size: 2rem;
+    }
+
+    #head_flashBack {
+        font-size: 2rem;
+    }
+
+    #segments .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 1.3rem;
+    }
+
+
+    @media screen and (min-width:576px) and (max-width:642px) {
+
+        /* change in About */
+
+        #about_footprints_page img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            margin: auto;
+        }
+
+        #about_footprints_page p {
+            line-height: 1.5rem;
+            text-align: justify;
+            letter-spacing: 1px;
+            font-size: 1.2rem;
+        }
+
+        .about_footprints {
+            flex-direction: column-reverse;
+        }
+
+        .Parent_Footer_Col3 {
+            font-size: 13px;
+        }
+
+        #newsletter_info {
+            font-size: 1.1em;
+        }
+
+        .footer_header {
+            font-size: 2em !important;
+        }
+
+        .heading_segment {
+            font-size: 2rem;
+        }
+    }
+}
+
+@media screen and (min-width:667px) and (max-width:776px) {
+
+    .about_footprints {
+        flex-direction: column-reverse;
+    }
+
+    /* change in About */
+
+    #about_footprints_page img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    .Parent_Footer {
+        font-size: 10px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 13px;
+    }
+
+    #newsletter_info {
+        font-size: 1.21em;
+    }
+
+    #head_flashBack {
+        font-size: 2rem;
+    }
+
+    #btn_join {
+        height: 3em;
+        font-size: 1.2em;
+        width: 10em;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.5em;
+    }
+
+    .footer_btn {
+        width: 6.5em;
+        height: 2.5em;
+        font-size: 1.1em;
+    }
+
+    .footer_header {
+        font-size: 2em !important;
+    }
+
+    .heading_segment {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width:776px) and (max-width:831px) {
+
+    .Parent_Footer {
+        font-size: 12px;
+    }
+
+    .about_footprints p {
+        font-size: 1.0rem;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 14px;
+    }
+
+    #newsletter_info {
+        font-size: 1.2em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.3em;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width:831px) and (max-width:941px) {
+
+    .about_footprints p {
+        font-size: 1.0rem;
+    }
+
+    .Parent_Footer {
+        font-size: 13px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 15px;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.5em;
+    }
+
+    #webTeamBtn {
+        width: 6.4em;
+    }
+}
+
+@media screen and (min-width:941px) and (max-width:992px) {
+
+    .Parent_Footer {
+        font-size: 15px;
+    }
+
+    /* change in About */
+
+    #about_footprints_page img {
+        width: 200%;
+        height: 100%;
+        object-fit: contain;
+        margin: auto;
+    }
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+        text-align: justify;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    /* .about_footprints p {
+        font-size: 1rem;
+    } */
+
+    .Parent_Footer_Col3 {
+        font-size: 15px;
+    }
+
+    #footer_div_contact {
+        font-size: 1.2em;
+    }
+
+    #head_NL{
+        font-size: 1.35rem !important;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+
+    #webTeamBtn {
+        width: 6em;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1083px) {
+
+    #head_NL{
+        /* font-size: 1.35rem !important; */
+        font-size: 1.28rem !important;
+    }
+    .about_footprints p {
+        font-size: 1.45rem;
+    }
+
+    .Parent_Footer {
+        font-size: 10px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 10px;
+    }
+
+    .footer_header {
+        font-size: 2.2em !important;
+    }
+
+    #newsletter_info {
+        font-size: 1.20em;
+    }
+
+    .footer_btn {
+        height: 2.5em;
+    }
+
+    .social {
+        font-size: 1.8em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.24em;
+    }
+
+    #footer_div_newsLetter {
+        gap: 2.5em;
+    }
+
+    #webTeamBtn {
+        width: 6.2em;
+    }
+}
+
+
+@media screen and (min-width:1083px) and (max-width:1164px) {
+
+    .about_footprints p {
+        font-size: 1.5rem;
+    }
+
+    .Parent_Footer {
+        font-size: 11px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 11px;
+    }
+
+    #newsletter_info {
+        font-size: 1.21em;
+    }
+
+    #footer_div_contact {
+        font-size: 1.15em;
+    }
+
+    #webTeamBtn {
+        width: 6em;
+        height: 1.8em;
+    }
+
+}
+
+@media screen and (min-width:1164px) and (max-width:1193px) {
+
+    .about_footprints p {
+        font-size: 1.5rem;
+    }
+
+    .Parent_Footer {
+        font-size: 12px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 12px;
+    }
+
+    #footer_div_contact {
+        font-size: 1.1em;
+    }
+
+    #newsletter_info {
+        font-size: 1.2em;
+    }
+
+    #webTeamBtn {
+        width: 7em;
+    }
+}
+
+@media screen and (min-width:1194px) and (max-width:1263px) {
+
+    /* change in about  */
+
+    #about_footprints_page p {
+        line-height: 1.5rem;
+    }
+
+    .about_footprints p {
+        font-size: 1.5rem;
+    }
+
+    .Parent_Footer {
+        font-size: 12px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 12px;
+    }
+
+    #footer_div_contact {
+        font-size: 1.17em;
+    }
+
+    #newsletter_info {
+        font-size: 1.2em;
+    }
+
+    #webTeamBtn {
+        width: 7.12em;
+    }
+
+    .social {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width:1263px) and (max-width:1329px) {
+
+    .about_footprints p {
+        font-size: 1.5rem;
+    }
+
+    .Parent_Footer {
+        font-size: 13px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 13px;
+    }
+
+    #footer_div_contact {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (min-width:1329px) and (max-width:1413px) {
+
+    .about_footprints p {
+        font-size: 1.5rem;
+    }
+
+    .Parent_Footer {
+        font-size: 14px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:1413px) and (max-width:1493px) {
+
+    .Parent_Footer {
+        font-size: 15px;
+    }
+
+    .Parent_Footer_Col3 {
+        font-size: 15px;
+    }
+
+    #head_NL,#head_CI {
+        font-size: 2em !important;
+        letter-spacing: 3px;
+    }
+
+    #footer_form {
+        flex-wrap: nowrap;
+    }
+
+    #email-textbox {
+        width: 100%;
+        height: 2.62em;
+        padding: 0em 0.3em;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: #FFFFFF;
+        /* background-color: #1b3438; */
+    }
+
+    .media_icons {
+        gap: 0px;
+    }
+
+    .footer_Item {
+        padding: 1em;
+    }
+
+    .footer_social_media {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width:1493px) {
+    
+    #head_NL,#head_CI {
+        font-size: 2em;
+        letter-spacing: 3px;
+    }
+
+}

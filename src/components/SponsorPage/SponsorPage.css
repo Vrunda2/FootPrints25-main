@@ -1,0 +1,94 @@
+/* To overwrite root Css */
+
+/* #id_sponsorsPage{
+    background-color: white !important;
+    color: black !important;
+} */
+
+/* <-- styling in title sponsor --> */
+.sponsor_header_img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #1b1b1b77;
+}
+.text-on-image-sponsor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 500px) {
+    .sponsor_header_img{
+        height: 300px;
+    }
+
+}
+#titleSponsorGrid{
+    margin-bottom: 1rem;
+}
+
+#id_div_titleSponsor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid var(--white); */
+    border: 1px solid #b0a9a9;
+
+}
+
+/* <-- styling in all other sponsors --> */
+
+#PartnersGrid img, #sponsorsGrid img,#titleSponsorGrid img{
+    width: 100%;
+    height: 50%;
+    object-fit: contain;
+}
+
+/* <-- Utility CSS --> */
+#id_sponsorsPage .container{
+    margin-bottom: 1rem;
+}
+
+#id_sponsorsPage .card{
+    border: none;
+}
+
+#id_sponsorsPage .card-body {
+    padding: 0;
+}
+
+#sponsorsGrid .div_img_sponsors{
+    cursor: pointer;
+    transition: all 0.5s;
+    /* border: 1px solid var(--white); */
+    border: 1px solid #b0a9a9;
+    
+}
+
+#PartnersGrid .div_img_sponsors{
+    cursor: pointer;
+    transition: all 0.5s;
+    /* border: 1px solid var(--white); */
+    border: 1px solid #b0a9a9;
+    
+}
+
+#sponsorsGrid .div_img_sponsors:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: var(--box-shadow);
+    /* box-shadow: 0 40px 120px -20px rgba(102, 100, 100, 0.6); */
+}
+
+#PartnersGrid .div_img_sponsors:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: var(--box-shadow);
+    /* box-shadow: 0 40px 120px -20px rgba(102, 100, 100, 0.6); */
+}
+
+#heading_partner_grid{
+margin-top: 1rem !important;
+}
+

@@ -1,0 +1,314 @@
+.Techzi_header_img img {
+    width: 100%;
+}
+#kaleido-header{
+    padding: 0;
+}
+#reveling-heading{
+    border-bottom: none;
+    font-family: var(--heading-family) !important;
+    font-size: 2.25rem;
+    letter-spacing: 3px;
+    text-align: center;
+    font-weight: 400;
+    margin: 1rem 1rem;
+    color: var(--icon-color);
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.Techzi_heading {
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+.techzi_lec {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 3rem 2rem;
+}
+
+/* .clock-icon::before {
+    font: var(--fa-font-regular);
+    content: "\f017";
+    padding-right: 9px;
+}
+
+.location-icon::before {
+    font: var(--fa-font-solid);
+    content: "\f3c5";
+    padding-right: 9px;
+} */
+
+.techzi_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 50px; */
+}
+
+.techzi_img img {
+    width: 50%;
+    /* height: 80%; */
+    background: #A8A8A80A;
+    padding: 14px;
+}
+
+.techzi_img_style {
+    justify-content: flex-end;
+}
+
+.techzi_img1 {
+    padding-left: 85px;
+}
+
+.techzi_heading {
+    display: flex;
+}
+
+.techzi_name {
+    border-bottom: 2px solid var(--icon-color);
+    padding-bottom: 6px;
+    color: var(--white);
+    text-align: left;
+}
+
+.about_techzi_para2 {
+    display: none;
+}
+
+.about_techzi_para1{
+    margin-left: 25%;
+}
+.techzi_img_style{
+    position: relative;
+    right: 25%;
+}
+.para1 {
+    margin-right: 25%;
+}
+
+
+.techzi_lec p {
+    text-align: justify;
+    color: var(--white);
+}
+
+
+@media screen and (min-width: 999px) {
+    .about_techzi {
+        text-align: justify;
+    }
+
+    .techzi_name {
+        font-size: 1.6rem;
+    }
+    .techzi_lec p {
+    text-align: justify;
+    color: var(--white);
+}
+    
+}
+
+@media screen and (max-width: 767px) {
+    .techzi_heading {
+        justify-content: center;
+    }
+
+    .techzi_name {
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .about_techzi {
+        text-align: center;
+    }
+
+    .techzi_lec {
+        display: block;
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .about_techzi_para1 {
+        display: none;
+    }
+
+    .about_techzi_para2 {
+        display: block;
+    }
+
+    .techzi_img {
+        margin-bottom: 1rem;
+    }
+
+    .techzi_img img {
+        width: 50%;
+    }
+
+    .header_img img {
+        padding-bottom: 20px;
+    }
+
+    .kaleido_header {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+    .about_techzi{
+    margin-left: 0;
+}
+.techzi_img_style{
+    position: relative;
+    right: 0%;
+    justify-content: center;
+}
+.para1 {
+    margin-right: 0%;
+}
+.techzi_lec p {
+    text-align: center;
+    color: var(--white);
+}
+}
+
+@media screen and (max-width: 996px) and (min-width:768px) {
+    .techzi_img {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    .techzi_lec {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about_techzi_para1 {
+        display: none;
+    }
+
+    .about_techzi_para2 {
+        display: block;
+    }
+
+    .techzi_heading {
+        justify-content: center;
+    }
+    .techzi_heading h3{
+        text-align: center;
+    }
+
+    .techzi_lec {
+        padding: 2rem;
+    }
+
+    .techzi_name {
+        font-size: 1.9rem;
+    }
+        .about_techzi{
+    margin-left: 5%;
+    width: 90%;
+}
+.techzi_img_style{
+    position: relative;
+    right: 0%;
+}
+.techzi_lec p {
+    text-align: center;
+    color: var(--white);
+}
+}
+
+@media screen and (max-width: 1199px) and (min-width: 999px) {
+
+    /* .techzi_name{font-size: 1.4rem;} */
+    .techzi_lec {
+        padding: 3rem 0rem;
+    }
+.techzi_img img {
+    width: 50%;
+    background: #A8A8A80A;
+    padding: 14px;
+
+}
+.techzi_img_style{
+    position: relative;
+    right: 25%;
+}
+.para1 {
+    margin-right: 25%;
+}
+.techzi_lec p {
+    text-align: justify;
+    color: var(--white);
+}
+
+}
+
+@media screen and (max-width: 518px) and (min-width: 410px) {
+    .techzi_img img{
+        width: 70%;
+    }
+    .techzi_name {
+        font-size: 1.4rem;
+        letter-spacing: 0px;
+    }
+    .about_techzi{
+    margin-left: 0;
+}
+.techzi_img_style{
+    position: relative;
+    right: 0%;
+    justify-content: center;
+}
+
+
+}
+
+@media screen and (max-width: 480px) and (min-width: 447px) {
+    .prev_guest_name {
+        letter-spacing: 2px;
+    }
+        .techzi_img img{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 409px) and (min-width: 380px) {
+    .techzi_heading {
+        margin: 1rem;
+    }
+    .techzi_img img{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 338px) {
+    .techzi_name {
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+    }
+        .techzi_img img{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .techzi_img img{
+        width: 80%;
+    }
+    .techzi_img_style{
+    position: relative;
+    right: 0%;
+    justify-content: center;
+}
+}
+
+
+/* added by Abdeali */
+
+#Techzi .fa{
+    color: var(--white) !important;
+}
+.text-without-icon-techzi{
+    margin-top: 10px;
+    font-size: 1.05rem;
+}

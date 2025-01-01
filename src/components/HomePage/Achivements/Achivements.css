@@ -1,0 +1,182 @@
+.img-bg {
+  width: 160px;
+  height: 180px;
+  background: var(--white-not-change);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievements-img {
+  width: 100%;
+}
+
+.achievements-item {
+  box-sizing: border-box;
+  background: var(--card-background);
+  border: 1px solid var(--home-card-border);
+
+  /* border: 1px solid var(--black-to-white); */
+  /* box-shadow: 7px 7px 5px var(--black); */
+  /* box-shadow: var(--box-shadow); */
+  border-radius: 10px;
+  /* justify-content: center; */
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+}
+
+.descrip {
+  height: 100%;
+  text-align: right;
+  text-transform: capitalize;
+  /* padding: 5px; */
+}
+
+.descriptopic {
+  font-size: 1.1em;
+  font-weight: 400;
+  /* border-bottom: 2px solid var(--icon-color); */
+  height: fit-content;
+  padding-bottom: 6px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  /* text-align: right; */
+}
+
+.descrip p {
+  overflow: hidden;
+  height: 6em;
+  line-height: 1.2em;
+
+  /*added by abdeali (may be faulty) */
+
+  font-family: var(--text-family);
+  color: var(--white);
+  font-size: 1.1rem;
+  text-align: justify;
+  margin: 0;
+}
+
+.btnDiv {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.readmorebtn {
+  border: none;
+  background: none;
+  /* color: var(--color-onHover-Theme ); */
+  /* font-weight: 400; */
+  text-transform: capitalize;
+
+  /*added by abdeali (may be faulty) */
+  font-weight: 900;
+  color: var(--yellow-to-blue);
+}
+.readmorebtn:hover {
+  color: var(--white);
+}
+
+.readafter:hover {
+  color: var(--white);
+}
+.deck {
+  margin-top: 5px;
+}
+
+/* NEEDED ONLY IF POSTS ARE IN ODD NUMBER, UN-COMMENT IF POSTS ARE ODD
+.cardBlock:nth-last-child(1) {
+  width: 50%;
+  margin: 3rem auto;
+} */
+
+@media (max-width: 538px) {
+  .img-bg {
+    padding-top: 10px;
+  }
+  .descriptopic {
+    text-align: center;
+  }
+  #achieve-head {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 767px) {
+  #achieve-head {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 1200px) {
+  .descriptopic {
+    text-align: right;
+    margin-right: 0;
+  }
+  #achieve-head {
+    font-size: 1.3rem;
+  }
+}
+@media (max-width: 1199px) {
+  /* NEEDED ONLY IF POSTS ARE IN ODD NUMBER, UN-COMMENT IF POSTS ARE ODD 
+  .cardBlock:nth-last-child(1) {
+    width: 100%;
+  } */
+
+  .descriptopic {
+    text-align: right;
+  }
+}
+@media (max-width: 1400px) {
+  .descrip {
+    text-align: left;
+    text-transform: capitalize;
+    padding-top: 10px;
+  }
+  .descriptopic {
+    text-align: center;
+  }
+}
+
+/* responsivness added by abdeali (may be faulty) */
+
+/* @media (min-width: 992px){
+  #achivements .container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+  } */
+
+@media (max-width: 538px) {
+  .descrip {
+    width: 100%;
+  }
+
+  .img-bg {
+    width: 220px;
+    height: 240px;
+  }
+}
+
+.content-design {
+  font-weight: 400;
+  text-transform: none;
+}
+
+/*DO NOT MAKE READMORE BUTTON DISPLAY NONE IT IS NEEDED IN ALL VIEWPORTS.*/
+
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .readmorebtn {
+    display: none;
+  }
+} */
+
+/* changed abdeali */
+
+/* #achivements .fa{
+  color: var(--icon-color);
+  
+} */

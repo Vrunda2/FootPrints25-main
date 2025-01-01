@@ -1,0 +1,159 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+/* Reset CSS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+:root {
+  /* <------- MainWeb -------> */
+
+  --background-color: rgb(15, 15, 15);
+  --gray-color: #34373b;
+  --icon-color: #ffc800;
+  --card-background: rgba(152, 152, 152, 0.12);
+  --black: black;
+  --navbar-shadow: rgba(0, 0, 0, 0.1);
+
+  /* <------- Common-1 -------> */
+
+  --white-not-change: white;
+  --box-shadow: 7px 7px 5px rgba(40, 37, 37, 0.8);
+  --yellow-to-black: #ffc800;
+  --color-onHover-Theme: #ffc800;
+  --yellow-to-blue: #ffc800;
+
+  --heading-family: "Rubik", sans-serif;
+  --text-family: "Karla", sans-serif;
+
+  /* <------- Common-2 -------> */
+
+  --white: #fff;
+  --yellow: #ffc800;
+  --border-yellow: #ffc80077;
+  --low-opacity-layer: rgba(255, 255, 255, 0.619);
+  --low-opacity-layer2: rgba(26, 26, 26, 0.781);
+  --box-bg: #171717;
+  --button-bg: #262626;
+  --home-card-border: none;
+  --text-for-header: rgb(179, 179, 179);
+
+  /* <------- NavBar -------> */
+
+  --white-to-blue: white;
+
+  /* <------- Footer -------> */
+
+  /* by kareena */
+  --footer-background: #181818a4;
+
+  --footer-icon-color: #ffc800;
+  --footer-email-Bg: rgb(61 61 61 / 96%);
+  --footer-btn-Bg: rgb(15, 15, 15);
+
+  /* <------- History Page -------> */
+
+  --yellow-to-white: #ffc800;
+  --card-border: none;
+  --card-shadow: none;
+  --card-history-background: #282828;
+
+  /* <------- Event Page -------> */
+
+  --filter-image: none;
+  --font-weight: 600;
+
+  /* <------- team page -------> */
+  --team-cover-bg: black;
+}
+
+/* ************ scrollbar ************ */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #232323;
+}
+
+/* [data-theme="dark"] {
+  --white: #fff;
+  --yellow: #ffc800;
+  --icon-color: #ffc800;
+  --background-color: rgb(15, 15, 15);
+  --footer-background: #020a08ab;
+  --yellow-to-black: #ffc800;
+  --color-onHover-Theme: #ffc800;
+  --yellow-to-white: #ffc800;
+  --card-shadow: none;
+  --card-border: none;
+  --card-history-background: #282828;
+  --filter-image: none;
+  --box-bg: #171717;
+  --low-opacity-layer: rgba(255, 255, 255, 0.619);
+  --team-cover-bg: black;
+  --home-card-border: none;
+  --white-to-blue: white;
+  --yellow-to-blue: #ffc800;
+} */
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 20px;
+  border: 2px solid #232323;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc800;
+}
+[data-theme="light"] {
+  --background-color: white;
+  --white: black;
+  --yellow: white;
+  --icon-color: black;
+  --footer-background: black;
+  --yellow-to-black: black;
+  --color-onHover-Theme: #7d6e21;
+  --yellow-to-white: white;
+  --card-shadow: -3px 6px 4px #524e4e;
+  --card-border: 1px solid black;
+  --card-history-background: white;
+  --filter-image: grayscale(1);
+  --box-bg: white;
+  --low-opacity-layer: black;
+  --team-cover-bg: whitesmoke;
+  --home-card-border: #8f8888;
+  --white-to-blue: #0d6efd;
+  --yellow-to-blue: #0d6efd;
+}
+
+/* Stlyling In Body */
+html,
+body {
+  background-color: var(--background-color);
+  /* color: var(--font-color); */
+  /* font-family: 'Outfit', sans-serif; */
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Styling In Common(Tags) */
+
+section {
+  /* margin-top: 2rem; */
+  /* width: fit-content; */
+  position: relative;
+  margin-inline: auto;
+}

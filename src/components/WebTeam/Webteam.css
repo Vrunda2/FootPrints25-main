@@ -1,0 +1,262 @@
+.webteam_header_img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #1b1b1b77;
+}
+.text-on-image-webteam{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 500px) {
+    .webteam_header_img{
+        height: 300px;
+    }
+
+}
+#heading_ourteam{
+  border-bottom: none;
+  font-weight: 600;
+}
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 400px;
+
+  /* background-color: black;
+  color:#FFF; */
+
+  background-color: var(--team-cover-bg) !important;
+  color: var(--white);
+
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color:var(--white);
+  font-family: var(--heading-family) !important;
+  font-weight: 400;
+  
+}
+
+.memBlock p {
+  font-size: 1.2rem;
+  padding-top: 5px;
+  color:var(--white);
+  font-family: var(--heading-family) !important;
+  font-weight: 400;
+}
+
+.memImg {
+  width: 230px;
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 0;
+  object-fit: cover;
+}
+
+.memName {
+  font-size: 1.3em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.memcards {
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box img {
+  width: 100%;
+}
+.img-box {
+  /* padding: 20px; */
+  background: none;
+}
+
+/* .profile {
+    margin-top: 2.5rem;
+    position: relative;
+} */
+
+.profile .img-box {
+  opacity: 1;
+  display: block;
+  position: relative;
+  /* box-shadow: 4px 4px 3px rgb(69, 69, 69); */
+  /* -moz-box-shadow: 4px 4px 3px rgb(69, 69, 69); */
+  /* -webkit-box-shadow: 4px 4px 3px rgb(58, 58, 58); */
+  /* -khtml-box-shadow: 4px 4px 3px rgb(19, 19, 19); */
+}
+.memImg {
+  padding: 0;
+  /* position: relative; */
+}
+
+/* .profile  {
+    font-size: 1.37rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    color:var(--white);   
+    /* Remember */
+/* } */
+
+.img-box:after {
+  content: "";
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.667);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.img-box ul {
+  margin: 0;
+  padding: 20px 0;
+  position: absolute;
+  z-index: 2;
+  display: block;
+  left: 88%;
+  top: 75%;
+  transform: translate(-50%);
+  opacity: 0;
+  font-size: 1.4rem;
+}
+
+.img-box ul li {
+  width: 35px;
+  height: 35px;
+  /* border: 1px solid var(--white); */
+  border: 1px solid #FFF;
+  border-radius: 6%;
+  /* padding: 0.1px; */
+  display: inline-block;
+}
+
+.img-box a {
+  /* color:var(--white); */
+  color:#FFF;
+  position: relative;
+  left: 22%;
+  top: 3%;
+}
+
+.img-box:hover:after {
+  opacity: 1;
+}
+
+.img-box:hover ul {
+  opacity: 1;
+}
+
+.img-box a:hover {
+  color: rgba(255, 255, 255, 0.379);
+}
+
+.img-box:after,
+.img-box ul,
+.img-box ul li {
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.row {
+  margin: auto;
+}
+@media screen and (max-width: 1200px) {
+  .img-box ul {
+    top: 67%;
+    left: 86%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .img-box ul {
+    top: 75%;
+    left: 88%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .img-box ul {
+    top: 72%;
+    left: 88%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img-box {
+    width: 80%;
+    margin: auto;
+  }
+
+  .row > * {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .img-box ul {
+    top: 81%;
+    left: 88%;
+    font-size: 1.8rem;
+  }
+
+  .img-box ul li {
+    width: 42px;
+    height: 42px;
+  }
+  .img-box a {
+    left: 20%;
+    top: 0%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img-box ul {
+    top: 76%;
+    left: 88%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .img-box ul {
+    top: 72%;
+    left: 88%;
+    font-size: 1.4rem;
+  }
+
+  .img-box ul li {
+    width: 35px;
+    height: 35px;
+  }
+  .img-box a {
+    left: 22%;
+    top: 3%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .img-box ul {
+    top: 68%;
+    left: 88%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .img-box ul {
+    top: 63%;
+    left: 86%;
+  }
+}
+
+/* @media screen and (max-width: 576px){
+  .img-box{
+    padding: 20px;
+  }
+  .img-box ul {
+  left: 84%;
+  top: 73%;
+}
+  
+} */

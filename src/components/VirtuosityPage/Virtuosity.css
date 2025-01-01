@@ -1,0 +1,30 @@
+#virtuo-header{
+    padding: 0;
+}
+.reveal-soon-text{
+    font-size: 6rem;
+    color: var(--yellow);
+    font-family: var(--heading-family);
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 840px) {
+    .reveal-soon-text{
+    font-size: 4rem;
+}
+}
+
+@media screen and (max-width: 570px) {
+    .reveal-soon-text{
+    font-size: 3rem;
+}
+}
+
+@media screen and (max-width: 440px) {
+    .reveal-soon-text{
+    font-size: 2rem;
+}
+}

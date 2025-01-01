@@ -1,0 +1,139 @@
+
+
+.yt-videos {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0px 10px;
+  margin: 0 10%;
+  margin-bottom: 3%;
+}
+.glimpse {
+  padding: 10px 10px;
+
+}
+.glimpse iframe:hover {
+  opacity: 0.8;
+  border: 2px solid var(--border-yellow);
+  
+}
+.glimpse iframe {
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.1rem;
+  background: none;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1150px) {
+  .yt-videos {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    padding: 0px 0px;
+    margin: 0 4%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .yt-videos {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin: 0 6%;
+  }
+}
+@media screen and (max-width: 536px) {
+  .yt-videos {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    margin: 0 3%;
+  }
+}
+
+/* Flashback Friday */
+.flash-video {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0px 10px;
+  margin: 0 15%;
+  margin-top: 2%;
+}
+.ig-overlay {
+  background: none;
+}
+.ig-overlay img {
+  height: 100%;
+  width: auto;
+  display: block;
+  background: none;
+}
+.link {
+  position: relative;
+  padding: 15px;
+}
+
+.link:hover .imagef {
+  opacity: 0.3;
+  background-color: var(--low-opacity-layer);
+  border: 2px solid var(--border-yellow);
+}
+.imagef {
+  border-radius: 5px;
+  width: 100%;
+}
+.link .ig-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 5rem;
+  height: 5rem;
+  z-index: 1;
+  opacity: 0;
+}
+.link:hover .ig-overlay {
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+@media screen and (max-width: 1150px) {
+  .flash-video {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    padding: 0px 0px;
+    margin: 0 8%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .flash-video {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin: 0 8%;
+  }
+}
+@media screen and (max-width: 536px) {
+  .flash-video {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    margin: 0 10%;
+  }
+}

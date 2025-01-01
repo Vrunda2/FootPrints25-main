@@ -1,0 +1,220 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-family);
+  text-transform: capitalize;
+  text-decoration: none !important;
+} */
+
+.nav-header {
+  position: sticky !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  background: var(--background-color);
+  box-shadow: 0 5px 10px var(--navbar-shadow) !important;
+  padding: 0px 7% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  z-index: 1000 !important;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-family);
+  text-transform: capitalize;
+  text-decoration: none !important;
+
+  /* background: rgb(99 94 94 / 18%); (changed this) */
+}
+
+.nav-header .navbar-logo img {
+  /* font-weight: bolder;
+    font-size: 25px;
+    color: var(--white); */
+
+  /*added by abdeali*/
+
+  width: 60px !important;
+  object-fit: contain;
+  margin: 7px;
+}
+
+.nav-header .custom-navbar ul {
+  list-style: none;
+  padding-left: 0% !important;
+}
+
+.nav-header .custom-navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.nav-header .custom-navbar ul li a {
+  font-size: 20px;
+  padding: 8px !important;
+  color: var(--white);
+  display: block !important;
+
+  /* changed by abdeali */
+
+  /* color: var(--white-to-blue) !important; */
+}
+
+.nav-header .custom-navbar ul li a:hover {
+  /* background: #333; */
+  /* color:var(--icon-color); */
+  color: var(--color-onHover-Theme) !important;
+}
+
+.nav-header .custom-navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: var(--background-color);
+  display: none;
+}
+
+.nav-header .custom-navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid var(--navbar-shadow);
+}
+
+.nav-header .custom-navbar ul li ul li ul {
+  left: 200px;
+  top: 0;
+}
+
+.nav-header .custom-navbar ul li:focus-within > ul,
+.nav-header .custom-navbar ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+.nav-header > label {
+  font-size: 20px;
+  color: var(--white);
+  cursor: pointer;
+  display: none;
+}
+
+/* @media(max-width:1025px) { */
+@media (max-width: 1109px) {
+  .nav-header {
+    padding: 20px;
+  }
+
+  .nav-header label {
+    display: initial;
+  }
+
+  .nav-header .custom-navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--background-color);
+    border-top: 1px solid var(--navbar-shadow);
+    display: none;
+  }
+
+  .nav-header .custom-navbar ul li {
+    width: 100%;
+  }
+
+  .nav-header .custom-navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  .nav-header .custom-navbar ul li ul li {
+    background: var(--background-color);
+  }
+
+  .nav-header .custom-navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+  }
+
+  #menu-bar:checked ~ .custom-navbar {
+    display: initial;
+  }
+}
+
+/* Check-Box */
+#themeBtn {
+  padding: 0px !important;
+  transform: scale(1.5) !important;
+  cursor: pointer;
+}
+
+#themeBtn .fa-moon {
+  color: black !important;
+}
+
+#themeBtn .fa-moon:hover {
+  color: #ffc800 !important;
+}
+
+#themeBtn .fa-sun {
+  color: white !important;
+}
+
+#themeBtn .fa-sun:hover {
+  color: #ffc800 !important;
+}
+
+/* changed by abdeali */
+
+.menu-bar #navicon {
+  color: var(--yellow-to-black) !important;
+}
+
+/* .subItems a {
+  border-bottom: 0.5px dotted var(--white) !important;
+  border-collapse: separate !important;
+} */
+
+/* #thirdhirarchy {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around;
+} */
+
+/* .subItems a:hover {
+  border-bottom: 0.5px dotted var(--yellow-to-black) !important;
+} */
+
+@media screen and (max-width: 1328px) and (min-width: 1026px) {
+  .nav-header .custom-navbar ul li a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1109px) {
+  #dots {
+    display: none !important;
+  }
+
+  .subItems i {
+    display: none !important;
+  }
+
+  /* .subItems a {
+  border-bottom: none !important;
+} */
+}
+
+@media screen and (max-width: 1111px) {
+  #thirdhirarchy span {
+    padding-left: 30px;
+  }
+  #subsubEvent {
+    padding-left: 30px;
+  }
+}

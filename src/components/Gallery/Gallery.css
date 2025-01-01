@@ -1,0 +1,122 @@
+.gal_header_img{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #1b1b1b77;
+    margin-bottom: 30px;
+}
+.text-on-image-gal{
+    /* margin: auto;
+    font-size: 3rem;
+    color: var(--yellow); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 500px) {
+    .gal_header_img{
+        height: 300px;
+    }
+
+}
+#heading_gallerypage{
+  border-bottom: none;
+  font-weight: 600;
+}
+.gallery {
+
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 0 12px;
+  margin: 2% 4%;
+}
+/* .pics {
+  margin-left: 5%;
+} */
+
+.gallery .pics {
+  
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+  cursor: pointer;
+  margin-bottom: 10%;
+}
+/* .gallery .pics:hover {
+  filter: opacity(0.5);
+} */
+
+@media (max-width: 991px) {
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+.gallery .pics:hover .img-overlay .imgtext{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  color: var(--footer-icon-color);
+  z-index: 1;
+  width: fit-content;
+  height: fit-content;
+}
+
+.gallery .pics:hover .img-overlay{
+  display: block;
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0px;
+  margin: auto;
+}
+ .img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  opacity: 0;
+}
+
+.gallery .pics:hover img{
+    width: 100%;
+    opacity: 0.3;
+    background-color: var(--low-opacity-layer);
+    border: 2px solid var(--border-yellow);
+}
+.gallery .pics{
+  position: relative;   
+}
+.imgtext p{
+  margin-bottom:0;
+}
+.imgtext hr{
+  margin-bottom:0;
+}
