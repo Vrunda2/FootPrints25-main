@@ -41,8 +41,8 @@ const segmentData = [
             },
 
             {
-                name: "OpenX",
-                redirects: "/event/openx/openx"
+                name: "TechX",
+                redirects: "/event/openx/TechX"
             }
 
         ]

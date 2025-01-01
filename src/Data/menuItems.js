@@ -18,7 +18,7 @@ const menuItems = [
           },
           {
             Department: 12,
-            title: "HackPrints 2.0",
+            title: "HackPrints'25",
             link: "/event/cybernetics/hackprints",
           },
           {

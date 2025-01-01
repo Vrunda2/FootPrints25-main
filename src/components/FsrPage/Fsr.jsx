@@ -10,7 +10,7 @@ function Fsr() {
 
   useEffect(() => {
   
-    document.title="FSR | FootPrints'23"
+    document.title="FSR | FootPrints'25"
 
   }, [])
   

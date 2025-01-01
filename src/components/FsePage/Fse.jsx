@@ -7,7 +7,7 @@ function Fse() {
 
   useEffect(() => {
 
-    document.title = "FSE | FootPrints'23"
+    document.title = "FSE | FootPrints'25"
 
   }, [])
 

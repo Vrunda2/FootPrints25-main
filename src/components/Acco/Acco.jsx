@@ -9,7 +9,7 @@ function Acco() {
 
   useEffect(() => {
   
-    document.title="Accomodation || FootPrints'23"
+    document.title="Accomodation || FootPrints'25"
 
   }, [])
 

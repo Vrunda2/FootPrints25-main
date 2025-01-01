@@ -9,7 +9,7 @@ const Gallery = () => {
 
   useEffect(() => {
   
-    document.title="Gallery | FootPrints'23"
+    document.title="Gallery | FootPrints'25"
 
   }, [])
 
