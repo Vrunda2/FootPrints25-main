@@ -15,9 +15,9 @@
 :root {
   /* <------- MainWeb -------> */
 
-  --background-color: rgb(15, 15, 15);
+  --background-color: #0b0c10;
   --gray-color: #34373b;
-  --icon-color: #ffc800;
+  --icon-color: #66fcf1;
   --card-background: rgba(152, 152, 152, 0.12);
   --black: black;
   --navbar-shadow: rgba(0, 0, 0, 0.1);
@@ -26,9 +26,9 @@
 
   --white-not-change: white;
   --box-shadow: 7px 7px 5px rgba(40, 37, 37, 0.8);
-  --yellow-to-black: #ffc800;
-  --color-onHover-Theme: #ffc800;
-  --yellow-to-blue: #ffc800;
+  --yellow-to-black: #66fcf1;
+  --color-onHover-Theme: #66fcf1;
+  --yellow-to-blue: #66fcf1;
 
   --heading-family: "Rubik", sans-serif;
   --text-family: "Karla", sans-serif;
@@ -36,8 +36,8 @@
   /* <------- Common-2 -------> */
 
   --white: #fff;
-  --yellow: #ffc800;
-  --border-yellow: #ffc80077;
+  --yellow: #66fcf1;
+  --border-yellow: #66fcf1;
   --low-opacity-layer: rgba(255, 255, 255, 0.619);
   --low-opacity-layer2: rgba(26, 26, 26, 0.781);
   --box-bg: #171717;
@@ -54,13 +54,13 @@
   /* by kareena */
   --footer-background: #181818a4;
 
-  --footer-icon-color: #ffc800;
+  --footer-icon-color: #66fcf1;
   --footer-email-Bg: rgb(61 61 61 / 96%);
   --footer-btn-Bg: rgb(15, 15, 15);
 
   /* <------- History Page -------> */
 
-  --yellow-to-white: #ffc800;
+  --blue-to-white: #66fcf1;
   --card-border: none;
   --card-shadow: none;
   --card-history-background: #282828;
@@ -115,7 +115,7 @@ body::-webkit-scrollbar-thumb {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #ffc800;
+  background: #66fcf1;
 }
 [data-theme="light"] {
   --background-color: white;
@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
   --icon-color: black;
   --footer-background: black;
   --yellow-to-black: black;
-  --color-onHover-Theme: #7d6e21;
+  --color-onHover-Theme: #356d6a;
   --yellow-to-white: white;
   --card-shadow: -3px 6px 4px #524e4e;
   --card-border: 1px solid black;
